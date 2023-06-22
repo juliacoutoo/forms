@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <main id="container">
+        <form id="login_form">
+            <!-- HEADER -->
+            <div id="form_header">
+                <h1>Login</h1>
+                <img id="mode_icon" class="moon" width="24" height="24" src="https://img.icons8.com/material-sharp/24/bright-moon.png" alt="bright-moon"/>
+            </div>
+            <!-- SOCIAL MEDIA -->
+            <div id="social_media">
+                <!-- FACEBOOK -->
+                <a href="#">
+                    <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/facebook.png" alt="facebook"/>
+                </a>
+                <!-- GOOGLE -->
+                <a href="#">
+                    <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/google-logo.png" alt="google-logo"/>
+                </a>
+                <!-- GITHUB -->
+                <a href="#">
+                    <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/github.png" alt="github"/>
+                </a>
+            </div>
+
+            <!-- INPUTS -->
+            <div id="inputs">
+                <!-- NAME -->
+                <div class="input-box">
+                    <label for="name">
+                        Name
+                        <div class="input-field">
+                            <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/name.png" alt="name"/>
+                            <input type="text" id="name" name="name">
+                        </div>
+                    </label>
+                </div>
+
+
+                <!-- EMAIL -->
+                <div class="input-box">
+                    <label for="email">
+                        Email
+                        <div class="input-field">
+                            <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/new-post.png" alt="new-post"/>
+                            <input type="email" id="email" name="email">
+                        </div>
+                    </label>
+                </div>
+
+
+                <!-- PASSWORD -->
+                <div class="input-box">
+                    <label for="password">
+                        Password
+                        <div class="input-field">
+                            <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/private2.png" alt="private2"/>
+                            <input type="password" id="password" name="password">
+                        </div>
+                    </label>
+                </div>
+
+                <!-- FORGOT YOUR PASSWORD -->
+                <div id="forgot_password">
+                    <a href="#">
+                        Forgot your password?
+                    </a>
+                </div>
+            </div>
+
+            <!-- LOGIN BUTTON -->
+            <button type="submit" id="login_button">
+                Login
+            </button>
+        </form>
+    </main>
+
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
